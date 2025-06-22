@@ -1,0 +1,41 @@
+'''
+# Industrial Predictive Maintenance Classifier
+
+Este projeto aplica técnicas de aprendizado de máquina para analisar e classificar registros de ocorrências industriais, com foco em manutenção preditiva.
+
+Através da análise de descrições textuais de falhas e ocorrências operacionais, o sistema classifica automaticamente o tipo de falha provável e gera recomendações de ações para o time de engenharia e manutenção.
+
+## Funcionalidades
+
+- Classificação automática de ocorrências de manutenção:
+  - Falha Mecânica
+  - Falha Elétrica
+  - Vazamento
+  - Sobreaquecimento
+  - Vibração Excessiva
+  - Pré-alarme
+  - Normal
+
+- Geração de recomendações automatizadas baseadas na categoria identificada.
+- Geração de relatório de desempenho do modelo (precisão, matriz de confusão).
+
+## Tecnologias utilizadas
+
+- Python
+- pandas
+- scikit-learn (machine learning supervisionado)
+- TF-IDF (processamento de texto)
+- Visualização com matplotlib e seaborn
+
+## Exemplo de recomendação automática:
+
+- **Falha Mecânica** → 🔧 Verificar sistemas mecânicos: lubrificação, acoplamentos e rolamentos.
+- **Falha Elétrica** → ⚡ Inspecionar cabos, conexões e alimentação elétrica.
+- **Vazamento** → 💧 Verificar juntas, válvulas e estanqueidade dos dutos.
+- **Sobreaquecimento** → 🌡️ Avaliar sistemas de refrigeração e ventilação forçada.
+- **Vibração Excessiva** → 🔎 Checar balanceamento e alinhamento de rotores.
+
+---
+
+Este sistema oferece apoio à decisão em ambientes industriais que buscam antecipar falhas e melhorar a eficiência operacional com base em dados históricos e inteligência preditiva.
+'''
