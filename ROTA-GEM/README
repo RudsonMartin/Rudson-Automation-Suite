@@ -1,0 +1,24 @@
+# Rota GEM Optimization
+
+O projeto **Rota GEM Optimization** visa otimizar a logística de entregas de equipamentos com base no volume acumulado de solicitações. 
+
+Com foco em eficiência operacional e planejamento dinâmico, o sistema analisa:
+
+- Quantidade de solicitações pendentes por rota
+- Determina se a rota possui volume suficiente para ser liberada
+- Postergamento inteligente de rotas com baixa demanda, evitando deslocamentos desnecessários
+
+### Benefícios:
+
+- Redução de custos logísticos
+- Melhor utilização de equipes de campo
+- Ganho de produtividade na alocação de rotas
+
+### Tecnologias usadas:
+
+- Python
+- Análise de dados com Pandas
+- Lógica de decisão baseada em regras de negócio personalizadas
+
+Este projeto é um exemplo de como pequenas automatizações orientadas a dados podem gerar impacto direto no planejamento operacional de empresas com logística variável.
+'''
