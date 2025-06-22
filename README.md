@@ -6,9 +6,7 @@ Este repositório reúne projetos desenvolvidos por mim, Rudson Martins Botelho,
 
 - **SAP Automation**: Automação de extração e input de dados de manutenção no SAP para subsidiar decisões operacionais.
 - **Maintenance Analysis**: Análise de dados de manutenção para identificar padrões e apoiar planejamentos preventivos e corretivos.
-- **Sentiment & Emotion AI**: Análise de interações pessoais para avaliação de estados emocionais e apoio a interações sensíveis.
 - **Rota GEM Optimization**: Lógica de otimização de rotas de entregas considerando demanda acumulada.
-- **WhatsApp AI Assistant**: Ferramenta de análise de mensagens em tempo real com sugestões automáticas, visando apoiar tomada de decisão comunicacional.
 - **Machine Learning Experiments**: Estudos de modelos de classificação e predição com aplicações práticas.
 
 ## Tecnologias utilizadas
