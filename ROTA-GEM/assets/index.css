@@ -1,0 +1,185 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #f5f5f5;
+	/* border: solid 1px #0015ff; */
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+}
+
+h1 {
+	font-size: 3.5rem;
+	color: #111111;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background: #333;
+	background-image: linear-gradient(to right, #ccc, #333, #ccc);
+	margin-top: 0.51rem;
+	width: 250vh;
+}
+
+/* button {
+	border: none;
+	background-color: red;
+	color: whitesmoke;
+	padding: 0.5rem 1rem;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	min-width: 7rem;
+	height: 2.5rem;
+	font-size: 1rem;
+} */
+
+.app-header {
+	height: 5rem;
+	line-height: 5rem;
+	margin-left: 1rem;
+	border-bottom: thin lightgrey solid;
+}
+
+.app-header .app-header--title {
+	font-size: 25rem;
+	padding-left: 5rem;
+}
+
+.app-header-content {
+	margin: 1rem 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: start;
+}
+
+#filtro-rota-dia {
+	width: 50rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.container {
+	margin: 1rem 1rem;
+	justify-content: space-around;
+	max-width: 1200px;
+}
+
+.app-content {
+	display: flex;
+	flex-direction: column;
+	height: 6rem;
+	width: auto;
+	justify-content: space-around;
+	align-items: start;
+}
+
+.export {
+	font-size: 0;
+	margin: 1rem 0;
+}
+
+.export:before {
+	content: "Exportar";
+	font-size: 1rem;
+}
+
+#botao-altera-tela {
+	margin: 1rem 0;
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+}
+
+#buttons-caminhao-div {
+	margin: 1rem 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+}
+
+.buttons {
+	margin: 0rem 1rem 0 0;
+}
+
+#tabs-caminhoes-div {
+	margin: 1rem 0;
+}
+
+.tab-caminhao {
+	margin: 1rem 0;
+}
+
+.tab-caminhao-div-buttons {
+	margin: 1rem 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+}
+
+#buttons-caminhao-q-nivel-financeiro-div {
+	margin: 1rem 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+/* Novos estilos adicionados */
+.app-header {
+    background: #2c3e50;
+    color: white;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.badge-nivel {
+    background: #3498db !important;
+    border-radius: 12px;
+    padding: 4px 10px;
+    font-size: 0.85em;
+    font-weight: 600;
+}
+
+.badge-nivel[data-level="3"] {
+    background: #27ae60 !important;
+}
+
+.badge-nivel[data-level="2"] {
+    background: #f1c40f !important;
+}
+
+.dash-table-container .dash-spreadsheet-container {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.dash-table-container .dash-spreadsheet-container th {
+    background: #34495e !important;
+    color: white !important;
+    font-weight: 600;
+}
+
+.buttons {
+    background: #3498db !important;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.buttons:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.tab-caminhao {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
