@@ -1,0 +1,9 @@
+## Plant Maintenance (PM) - SAP
+Automação de parte do modulo PM
+
+O módulo PM (Plant Maintenance) do SAP permite gerenciar a manutenção de ativos físicos da empresa. Este repositório inclui automações e análises desenvolvidas sobre dados extraídos do SAP PM, auxiliando na tomada de decisão sobre:
+
+- Priorização de equipamentos críticos
+- Análise de desempenho de manutenções preventivas e corretivas
+- Identificação de padrões de falhas
+- Apoio ao planejamento de ordens futuras
